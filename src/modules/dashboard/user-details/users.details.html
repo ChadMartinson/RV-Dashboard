@@ -1,0 +1,26 @@
+<div class="row">
+  <div class="col-lg-12">
+    <div class="widget">
+      <div class="widget-header">User Details
+      </div>
+      <div class="table-responsive">
+        <table class="table">
+          <thead>
+            <tr>
+              <th class="text-center">ID</th>
+              <th>Name</th>
+              <th>Avatar</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr ng-controller="details">
+              <td class="text-center">{{user.id}}</td>
+              <td>{{user.name}}</td>
+              <td><img src={{user.gravatar}}></td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+    </div>
+  </div>
+</div>

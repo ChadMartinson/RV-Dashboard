@@ -1,0 +1,1 @@
+module.exports = require("npm:q@0.9.7/q");

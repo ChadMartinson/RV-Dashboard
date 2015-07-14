@@ -1,0 +1,1 @@
+module.exports = require("npm:chmodr@0.1.1/chmodr");

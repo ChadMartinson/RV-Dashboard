@@ -1,0 +1,1 @@
+module.exports = require("npm:handlebars@1.0.12/lib/handlebars");

@@ -1,0 +1,1 @@
+module.exports = require("npm:junk@0.2.2/junk");

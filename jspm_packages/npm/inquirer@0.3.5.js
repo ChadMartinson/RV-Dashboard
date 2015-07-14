@@ -1,0 +1,1 @@
+module.exports = require("npm:inquirer@0.3.5/lib/inquirer");

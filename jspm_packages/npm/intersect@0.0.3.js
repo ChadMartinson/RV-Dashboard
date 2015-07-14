@@ -1,0 +1,1 @@
+module.exports = require("npm:intersect@0.0.3/index");

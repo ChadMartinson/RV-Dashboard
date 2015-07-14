@@ -1,0 +1,53 @@
+{
+  "name": "mkdirp",
+  "description": "Recursively mkdir, like `mkdir -p`",
+  "version": "0.3.5",
+  "author": {
+    "name": "James Halliday",
+    "email": "mail@substack.net",
+    "url": "http://substack.net"
+  },
+  "main": "./index",
+  "keywords": [
+    "mkdir",
+    "directory"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "http://github.com/substack/node-mkdirp.git"
+  },
+  "scripts": {
+    "test": "tap test/*.js"
+  },
+  "devDependencies": {
+    "tap": "~0.4.0"
+  },
+  "license": "MIT",
+  "_id": "mkdirp@0.3.5",
+  "dist": {
+    "shasum": "de3e5f8961c88c787ee1368df849ac4413eca8d7",
+    "tarball": "http://registry.npmjs.org/mkdirp/-/mkdirp-0.3.5.tgz"
+  },
+  "_from": ".",
+  "_npmVersion": "1.2.2",
+  "_npmUser": {
+    "name": "substack",
+    "email": "mail@substack.net"
+  },
+  "maintainers": [
+    {
+      "name": "substack",
+      "email": "mail@substack.net"
+    }
+  ],
+  "format": "cjs",
+  "ignore": [
+    "node_modules"
+  ],
+  "registry": "npm",
+  "dependencies": {
+    "path": "github:jspm/nodelibs-path@^0.1.0",
+    "fs": "github:jspm/nodelibs-fs@^0.1.0",
+    "process": "github:jspm/nodelibs-process@^0.1.0"
+  }
+}

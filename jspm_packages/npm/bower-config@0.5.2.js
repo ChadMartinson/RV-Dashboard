@@ -1,0 +1,1 @@
+module.exports = require("npm:bower-config@0.5.2/lib/Config");

@@ -1,0 +1,1 @@
+module.exports = require("npm:cli-color@0.2.3/lib");

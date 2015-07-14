@@ -1,0 +1,1 @@
+module.exports = require("npm:ng-annotate@1.0.1/build/es5/ng-annotate-main");

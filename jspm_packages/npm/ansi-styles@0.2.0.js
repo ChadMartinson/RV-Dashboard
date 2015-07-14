@@ -1,0 +1,1 @@
+module.exports = require("npm:ansi-styles@0.2.0/ansi-styles");

@@ -1,0 +1,1 @@
+module.exports = require("npm:next-tick@0.1.0/lib/next-tick");

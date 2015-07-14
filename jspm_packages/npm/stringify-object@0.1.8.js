@@ -1,0 +1,1 @@
+module.exports = require("npm:stringify-object@0.1.8/stringify-object");

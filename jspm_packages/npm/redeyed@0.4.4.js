@@ -1,0 +1,1 @@
+module.exports = require("npm:redeyed@0.4.4/redeyed");

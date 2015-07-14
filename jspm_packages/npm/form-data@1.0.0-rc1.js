@@ -1,0 +1,1 @@
+module.exports = require("npm:form-data@1.0.0-rc1/lib/form_data");

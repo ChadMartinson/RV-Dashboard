@@ -1,0 +1,65 @@
+{
+  "author": {
+    "name": "Isaac Z. Schlueter",
+    "email": "i@izs.me",
+    "url": "http://blog.izs.me/"
+  },
+  "name": "fstream",
+  "description": "Advanced file system stream things",
+  "version": "0.1.31",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/isaacs/fstream.git"
+  },
+  "main": "fstream.js",
+  "engines": {
+    "node": ">=0.6"
+  },
+  "devDependencies": {
+    "tap": ""
+  },
+  "scripts": {
+    "test": "tap examples/*.js"
+  },
+  "license": "BSD",
+  "gitHead": "3512b3d41b4c9b3ef15cf32a04e06b297f3dd6a4",
+  "bugs": {
+    "url": "https://github.com/isaacs/fstream/issues"
+  },
+  "homepage": "https://github.com/isaacs/fstream",
+  "_id": "fstream@0.1.31",
+  "_shasum": "7337f058fbbbbefa8c9f561a28cab0849202c988",
+  "_from": ".",
+  "_npmVersion": "2.0.0-alpha-5",
+  "_npmUser": {
+    "name": "isaacs",
+    "email": "i@izs.me"
+  },
+  "maintainers": [
+    {
+      "name": "isaacs",
+      "email": "i@izs.me"
+    }
+  ],
+  "dist": {
+    "shasum": "7337f058fbbbbefa8c9f561a28cab0849202c988",
+    "tarball": "http://registry.npmjs.org/fstream/-/fstream-0.1.31.tgz"
+  },
+  "format": "cjs",
+  "ignore": [
+    "node_modules"
+  ],
+  "registry": "npm",
+  "dependencies": {
+    "graceful-fs": "graceful-fs@~3.0.2",
+    "inherits": "inherits@~2.0.0",
+    "mkdirp": "mkdirp@~0.5.0",
+    "rimraf": "rimraf@^2.0.0",
+    "path": "github:jspm/nodelibs-path@^0.1.0",
+    "process": "github:jspm/nodelibs-process@^0.1.0",
+    "fs": "github:jspm/nodelibs-fs@^0.1.0",
+    "stream": "github:jspm/nodelibs-stream@^0.1.0",
+    "buffer": "github:jspm/nodelibs-buffer@^0.1.0",
+    "assert": "github:jspm/nodelibs-assert@^0.1.0"
+  }
+}

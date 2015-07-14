@@ -1,0 +1,1 @@
+module.exports = require("npm:update-notifier@0.1.10/lib/update-notifier");

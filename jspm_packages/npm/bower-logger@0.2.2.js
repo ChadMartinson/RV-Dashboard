@@ -1,0 +1,1 @@
+module.exports = require("npm:bower-logger@0.2.2/lib/Logger");

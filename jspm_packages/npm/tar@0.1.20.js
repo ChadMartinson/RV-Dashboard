@@ -1,0 +1,1 @@
+module.exports = require("npm:tar@0.1.20/tar");

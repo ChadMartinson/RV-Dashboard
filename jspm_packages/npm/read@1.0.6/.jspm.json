@@ -1,0 +1,59 @@
+{
+  "name": "read",
+  "version": "1.0.6",
+  "main": "lib/read.js",
+  "devDependencies": {
+    "tap": "*"
+  },
+  "engines": {
+    "node": ">=0.8"
+  },
+  "author": {
+    "name": "Isaac Z. Schlueter",
+    "email": "i@izs.me",
+    "url": "http://blog.izs.me/"
+  },
+  "description": "read(1) for node programs",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/isaacs/read.git"
+  },
+  "license": "ISC",
+  "scripts": {
+    "test": "tap test/*.js"
+  },
+  "gitHead": "2f5101c8e41332a033e5aa4e27e33fd6e09598e2",
+  "bugs": {
+    "url": "https://github.com/isaacs/read/issues"
+  },
+  "homepage": "https://github.com/isaacs/read#readme",
+  "_id": "read@1.0.6",
+  "_shasum": "09873c14ecc114d063fad43b8ca5a33d304721c8",
+  "_from": ".",
+  "_npmVersion": "2.10.0",
+  "_nodeVersion": "2.0.1",
+  "_npmUser": {
+    "name": "isaacs",
+    "email": "isaacs@npmjs.com"
+  },
+  "dist": {
+    "shasum": "09873c14ecc114d063fad43b8ca5a33d304721c8",
+    "tarball": "http://registry.npmjs.org/read/-/read-1.0.6.tgz"
+  },
+  "maintainers": [
+    {
+      "name": "isaacs",
+      "email": "i@izs.me"
+    }
+  ],
+  "format": "cjs",
+  "ignore": [
+    "node_modules"
+  ],
+  "registry": "npm",
+  "dependencies": {
+    "mute-stream": "mute-stream@~0.0.4",
+    "readline": "github:jspm/nodelibs-readline@^0.1.0",
+    "process": "github:jspm/nodelibs-process@^0.1.0"
+  }
+}

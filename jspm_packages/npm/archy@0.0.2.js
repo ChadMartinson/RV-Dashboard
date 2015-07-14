@@ -1,0 +1,1 @@
+module.exports = require("npm:archy@0.0.2/index");

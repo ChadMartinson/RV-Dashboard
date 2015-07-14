@@ -1,0 +1,103 @@
+<div class="row">
+
+   <!-- Widget listing -->
+   <div class="col-lg-12">
+     <div class="widget">
+       <div class="widget-header">Widgets
+
+       </div>
+       <div class="table-responsive">
+         <table class="table">
+           <thead>
+             <tr>
+               <th class="text-center">ID</th>
+               <th>Name</th>
+               <th>Color</th>
+               <th>Price</th>
+               <th>Melts?</th>
+               <th>Inventory</th>
+             </tr>
+           </thead>
+           <tbody>
+             <tr ng-repeat="widget in w.widgets">
+               <td class="text-center">{{widget.id}}</td>
+               <td>{{widget.name}}</td>
+               <td>{{widget.color}}</td>
+               <td>{{widget.price}}</td>
+               <td>{{widget.melts}}</td> <!-- Needs a filter that takes the boolean and returns yes or no -->
+               <td>{{widget.inventory}}</td>
+             </tr>
+           </tbody>
+         </table>
+       </div>
+     </div>
+   </div><!-- End Widgets -->
+
+ </div><!-- End Row -->
+
+ <hr>
+
+ <!-- Create/Edit -->
+ <div class="row">
+
+   <!-- Widget listing -->
+   <div class="col-lg-12">
+     <div class="widget">
+       <div class="widget-header">Create/Edit Template
+         <div class="pull-right">
+           <button class="btn btn-sm btn-info" ng-click="w.createWidget(newWidget)">+ Create</button>
+         </div>
+       </div>
+       <div class="widget-body">
+         <form class="form-horizontal">
+
+           <legend>Create Widget</legend>
+
+           <!-- Name-->
+           <div class="controls">
+           Name
+             <input ng-model="w.newWidget.name" id="widget-name" name="widget-name" type="text" placeholder="foo-bar" class="input-medium">
+           </div>
+
+           <!-- Price -->
+           <div class="controls">
+             <div class="input-prepend">
+             Price
+               <span class="add-on">$</span>
+               <input ng-model="w.newWidget.price" id="widget-price" name="widget-price" class="input-medium" placeholder="0.00" type="text">
+             </div>
+           </div>
+
+           <!-- Color -->
+           <div class="controls">
+           Color
+             <select ng-model="w.newWidget.color" id="widget-color" name="widget-color" class="input-large">
+               <option>red</option>
+               <option>purple</option>
+               <option>black</option>
+               <option>green</option>
+               <option>magenta</option>
+               <option>white</option>
+               <option>depends on the viewing angle</option>
+             </select>
+           </div>
+
+           <!-- Melts -->
+           <!-- I keep getting a bad request if box is unchecked.
+                I tried ng-value-true and ng-value-false to pass a value
+                but it isn't working.  -->
+           <div class="controls">
+             Melts
+             <input ng-model="w.newWidget.melts" type="checkbox" name="widget-properties" id="widget-properties-0" value="melts">
+           </div>
+
+           <!-- Inventory -->
+           <div class="controls">
+             Inventory
+             <input ng-model="w.newWidget.inventory" id="widget-count" name="widget-count" type="text" placeholder="#?" class="input-small">
+           </div>
+         </form>
+       </div><!-- End Widget body -->
+     </div><!-- End Widget -->
+   </div><!-- End Column -->
+ </div>

@@ -1,0 +1,1 @@
+module.exports = require("npm:cardinal@0.4.4/cardinal");

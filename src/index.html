@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>RV Dashboard</title>
+	<script src="../jspm_packages/system.js"></script>
+  <script src="../config.js"></script>
+  <script>
+    System.import('./src/app');
+  </script>
+	<base href="/src/">
+</head>
+<body ng-app="myApp">
+	<div id="page-wrapper" class="open">
+
+      <!-- Sidebar -->
+				<rv-navbar></rv-navbar>
+      <!-- End Sidebar -->
+      <div id="content-wrapper">
+
+        <div class="page-content">
+					<ui-view>
+          <!-- Header Bar -->
+          <div ui-view="headerbar"></div>
+          <!-- End Header Bar -->
+
+
+          <!-- Tables -->
+
+					<div ui-view="content"></div>
+					</uiview>
+
+        </div><!-- End Page Content -->
+      </div><!-- End Content Wrapper -->
+    </div><!-- End Page Wrapper -->
+</body>
+</html>

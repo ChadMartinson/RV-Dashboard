@@ -1,0 +1,1 @@
+module.exports = require("npm:xdg-basedir@1.0.1/index");

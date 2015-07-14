@@ -1,0 +1,1 @@
+module.exports = require("npm:memoizee@0.2.6/lib");

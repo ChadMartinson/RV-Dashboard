@@ -1,0 +1,1 @@
+module.exports = require("npm:p-throttler@0.0.1/index");

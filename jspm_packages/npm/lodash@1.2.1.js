@@ -1,0 +1,1 @@
+module.exports = require("npm:lodash@1.2.1/dist/lodash");

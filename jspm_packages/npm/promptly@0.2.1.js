@@ -1,0 +1,1 @@
+module.exports = require("npm:promptly@0.2.1/index");

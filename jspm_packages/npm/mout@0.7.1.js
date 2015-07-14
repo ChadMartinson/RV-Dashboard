@@ -1,0 +1,1 @@
+module.exports = require("npm:mout@0.7.1/index");

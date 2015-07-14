@@ -1,0 +1,86 @@
+<div class="row">
+  <div class="row">
+    <div class="col-lg-3 col-md-6 col-xs-12">
+      <div class="widget">
+        <div class="widget-header">
+          <div class="widget-icon green pull-left">
+            <i class="fa fa-users"></i>
+          </div>
+          <div class="title">{{d.users.length}}</div>
+          <div class="comment">Users</div>
+        </div>
+      </div>
+    </div>
+    <div class="col-lg-3 col-md-6 col-xs-12">
+      <div class="widget">
+        <div class="widget-header">
+          <div class="widget-icon green pull-left">
+            <i class="fa fa-cubes"></i>
+          </div>
+          <div class="title">{{d.widgets.length}}</div>
+          <div class="comment">Widgets</div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Tables -->
+  <div class="row">
+
+    <!-- Users listing -->
+
+    <div class="col-lg-6">
+      <div ui-view="hello"></div>
+      <div class="widget">
+        <div class="widget-header">Users
+          <div class="pull-right"><input type="text" ng-model="userQuery" class="form-control input-sm"></div>
+        </div>
+        <div class="table-responsive">
+          <table class="table">
+            <thead>
+              <tr>
+                <th class="text-center">ID</th>
+                <th>Name</th>
+              </tr>
+            </thead>
+            <tbody>
+              <!-- A modal would be really cool for seeing user details   -->
+              <tr ng-repeat="user in d.users | filter:userQuery">
+                <td class="text-center">{{user.id}}</td>
+                <td><a ui-sref="dashboard.userDetail({id:user.id})">{{user.name}}</a></td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+      </div>
+    </div>
+
+    <!-- End Users -->
+
+    <!-- Widget listing -->
+    <div class="col-lg-6">
+      <div class="widget">
+        <div class="widget-header">Widgets
+          <div class="pull-right"><input type="text" ng-model="widgetQuery" class="form-control input-sm"></div>
+        </div>
+        <div class="table-responsive">
+          <table class="table">
+            <thead>
+              <tr>
+                <th class="text-center">ID</th>
+                <th>Name</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr ng-repeat="widget in d.widgets | filter:widgetQuery">
+                <td class="text-center">{{widget.id}}</td>
+                <td>{{widget.name}}</td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+      </div>
+    </div>
+    <!-- End Widgets -->
+
+  </div>

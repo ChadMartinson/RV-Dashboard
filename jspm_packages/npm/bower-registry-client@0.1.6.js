@@ -1,0 +1,1 @@
+module.exports = require("npm:bower-registry-client@0.1.6/Client");

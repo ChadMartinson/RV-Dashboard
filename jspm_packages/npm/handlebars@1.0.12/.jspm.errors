@@ -1,0 +1,5 @@
+/Users/chadmartinson/.jspm/packages/npm/handlebars@1.0.12/global-test.js:10:1: Illegal return statement
+
+/Users/chadmartinson/.jspm/packages/npm/handlebars@1.0.12/lib/handlebars/browser-prefix.js:4:1: Unexpected token End of File,/Users/chadmartinson/.jspm/packages/npm/handlebars@1.0.12/lib/handlebars/browser-prefix.js:4:1: Unexpected token End of File
+
+/Users/chadmartinson/.jspm/packages/npm/handlebars@1.0.12/lib/handlebars/browser-suffix.js:1:1: Unexpected token }

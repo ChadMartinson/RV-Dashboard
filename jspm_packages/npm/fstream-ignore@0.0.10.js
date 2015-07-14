@@ -1,0 +1,1 @@
+module.exports = require("npm:fstream-ignore@0.0.10/ignore");

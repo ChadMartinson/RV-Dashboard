@@ -1,0 +1,1 @@
+module.exports = require("npm:event-emitter@0.2.2/lib");

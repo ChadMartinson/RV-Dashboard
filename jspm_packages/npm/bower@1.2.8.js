@@ -1,0 +1,1 @@
+module.exports = require("npm:bower@1.2.8/lib");

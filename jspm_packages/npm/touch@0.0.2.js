@@ -1,0 +1,1 @@
+module.exports = require("npm:touch@0.0.2/touch");

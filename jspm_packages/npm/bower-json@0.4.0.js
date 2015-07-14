@@ -1,0 +1,1 @@
+module.exports = require("npm:bower-json@0.4.0/lib/json");

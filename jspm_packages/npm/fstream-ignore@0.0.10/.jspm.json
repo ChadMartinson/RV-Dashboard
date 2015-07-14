@@ -1,0 +1,59 @@
+{
+  "author": {
+    "name": "Isaac Z. Schlueter",
+    "email": "i@izs.me",
+    "url": "http://blog.izs.me/"
+  },
+  "name": "fstream-ignore",
+  "description": "A thing for ignoring files based on globs",
+  "version": "0.0.10",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/isaacs/fstream-ignore.git"
+  },
+  "main": "ignore.js",
+  "scripts": {
+    "test": "tap test/*.js"
+  },
+  "devDependencies": {
+    "tap": "",
+    "rimraf": "",
+    "mkdirp": ""
+  },
+  "license": "ISC",
+  "gitHead": "f96a6aad442bea9763d5a59b1117d770f2e8385d",
+  "bugs": {
+    "url": "https://github.com/isaacs/fstream-ignore/issues"
+  },
+  "homepage": "https://github.com/isaacs/fstream-ignore",
+  "_id": "fstream-ignore@0.0.10",
+  "_shasum": "b10f8f522cc55415f80b41f7d3a32e6cba254e8c",
+  "_from": ".",
+  "_npmVersion": "1.5.0-alpha-1",
+  "_npmUser": {
+    "name": "isaacs",
+    "email": "i@izs.me"
+  },
+  "maintainers": [
+    {
+      "name": "isaacs",
+      "email": "i@izs.me"
+    }
+  ],
+  "dist": {
+    "shasum": "b10f8f522cc55415f80b41f7d3a32e6cba254e8c",
+    "tarball": "http://registry.npmjs.org/fstream-ignore/-/fstream-ignore-0.0.10.tgz"
+  },
+  "format": "cjs",
+  "ignore": [
+    "node_modules"
+  ],
+  "registry": "npm",
+  "dependencies": {
+    "fstream": "fstream@~0.1.17",
+    "inherits": "inherits@^2.0.0",
+    "minimatch": "minimatch@^0.3.0",
+    "path": "github:jspm/nodelibs-path@^0.1.0",
+    "fs": "github:jspm/nodelibs-fs@^0.1.0"
+  }
+}

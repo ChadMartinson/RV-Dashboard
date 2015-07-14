@@ -1,0 +1,1 @@
+module.exports = require("npm:jspm-bower@0.0.3/bower");

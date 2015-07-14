@@ -1,0 +1,1 @@
+module.exports = require("npm:semver@2.1.0/semver.browser");

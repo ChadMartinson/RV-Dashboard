@@ -1,0 +1,1 @@
+module.exports = require("npm:decompress-zip@0.0.8/lib/decompress-zip");

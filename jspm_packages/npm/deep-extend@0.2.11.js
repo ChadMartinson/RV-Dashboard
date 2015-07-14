@@ -1,0 +1,1 @@
+module.exports = require("npm:deep-extend@0.2.11/index");
